@@ -6,11 +6,11 @@ import CarValue from "./components/CarValue";
 
 const App = () => {
   return (
-    <div>
+    <div className="container">
       <CarForm />
+      <CarSearch />
       <CarList />
       <CarValue />
-      <CarSearch />
     </div>
   );
 };
